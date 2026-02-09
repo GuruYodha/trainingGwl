@@ -32,7 +32,7 @@ public class Phonebook {
 			System.out.println("provide the number you want to delete");
 			long number1=sc.nextLong();
 			Iterator<Contact> i=contact.iterator();
-			boolean removed=false;
+		
 			
 			while(i.hasNext()) {
 				Contact c=i.next();
