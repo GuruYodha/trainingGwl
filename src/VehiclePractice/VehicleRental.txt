@@ -1,0 +1,143 @@
+🚗 Vehicle Rental Management System – Practice Question
+
+A vehicle rental company wants to build a Rental Management System to manage customer rentals and calculate rental charges.
+
+The system should:
+
+Store rental records using collections
+
+Perform operations such as adding rentals, updating charges, grouping rentals, and generating reports
+
+Use both List and Map from the Java Collection Framework
+
+You are required to develop a console-based Java application that fulfills the following requirements.
+
+✅ Required Operations (Must Use Collections)
+1️⃣ Add a New Rental
+
+Add a new rental record
+
+Prevent duplicate Rental IDs
+
+2️⃣ Update Rental Charges
+
+Locate a rental using Rental ID
+
+Update base rental cost
+
+Recalculate total rental charge
+
+3️⃣ Locate Rental
+
+Search rental using Map<Integer, Rental>
+
+Display rental details
+
+4️⃣ Display All Active Rentals
+
+Use List to filter and display rentals with status ONGOING
+
+5️⃣ Group Rentals by Vehicle Type
+
+Group rentals by vehicle type
+
+Display count of rentals per vehicle type
+
+Use:
+
+Map<String, Integer>
+
+6️⃣ Find Highest Rental Charge
+
+Traverse the List
+
+Find rental with highest total charge
+
+7️⃣ Remove Completed Rentals
+
+Remove rentals with status COMPLETED from the List
+
+Update the Map accordingly
+
+⚠️ Exception Handling
+
+Create a custom exception:
+
+InvalidVehicleTypeException
+
+
+Throw the exception if an invalid vehicle type is entered.
+
+📋 Rental Details
+
+Each rental record must contain:
+
+Rental ID (Integer)
+
+Customer Name (String)
+
+Vehicle Type (String: CAR, BIKE, TRUCK, VAN)
+
+Number of Rental Days (Integer)
+
+Base Daily Rate (Double)
+
+Rental Status (String: ONGOING, COMPLETED)
+
+Total Rental Charge (Double – calculated)
+
+💰 Charge Calculation Rules
+Vehicle Type Rate Increase:
+Vehicle Type	Increase
+CAR	+25%
+BIKE	+10%
+TRUCK	+35%
+VAN	+20%
+Total Rental Charge Formula:
+Total Charge = (Base Daily Rate × Number of Days)
+               + Vehicle Type Increase
+
+🗂 Data Storage Requirements
+
+Store all rentals in:
+
+List<Rental>
+
+
+Maintain fast lookup using:
+
+Map<Integer, Rental>
+
+🎯 What You Must Practice in This Question
+
+ArrayList usage
+
+HashMap usage
+
+Preventing duplicates using Map
+
+Filtering List
+
+Traversing List
+
+Removing elements safely
+
+Updating Map after removal
+
+Custom Exception
+
+Premium/Charge calculation logic
+
+Console-based menu system
+
+If you'd like, I can also:
+
+✔ Provide sample expected output
+
+✔ Give you a UML-style class structure
+
+✔ Provide a skeleton code template
+
+✔ Or give you a slightly harder version for advanced practice
+
+Just tell me your level 😊
