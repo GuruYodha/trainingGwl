@@ -1,6 +1,6 @@
 package LambdaPractice;
-import java.util.Random;
 import java.util.function.Supplier;
+import java.util.Random;
 public class OTP {
 
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class OTP {
 			}
 		};
 		
-		for(;;) {
+		while(true) {
 			
 		System.out.println("The OTP is "+otp.get());
 		}
